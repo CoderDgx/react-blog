@@ -21,7 +21,7 @@ export default [
   },
   {
     icon: 'message',
-    title: '碎🐡',
+    title: '闲言',
     link: '/fragment'
   }
 ]

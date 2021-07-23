@@ -29,7 +29,7 @@ h1 {
 	justify-content: center;
 	min-height: '35rem';
 	height: 100%;
-	background-image: linear-gradient(to bottom,  rgba(255,168,76,0.6) 0%,rgba(255,123,13,0.6) 100%), url(https://z3.ax1x.com/2021/07/21/WUG676.jpg);
+	background-image: linear-gradient(to bottom,  rgba(255,168,76,0.6) 0%,rgba(255,123,13,0.6) 100%), url('../../assets/images/welcome.jpeg');
 	background-blend-mode: soft-light;
 	background-size: cover;
 	background-position: center center;
@@ -40,9 +40,8 @@ h1 {
 	// Love dynamically typed text? You're gonna love this
 // Edit these strings to see them typed on the screen:
 $strings: (
-	"欲买桂花同载酒"
-	"终不似"
-	"少年游"
+	"寒潭渡鹤影"
+	"冷月葬花魂"
 );
 
 // now for some timing (in seconds)
@@ -136,9 +135,9 @@ div {
 		display: inline-block;
 		padding-right: 3px;
 		padding-right: calc(3px + 0.1vw);
-		border-right: 10px solid rgba(#3f3, 0.75);
-		border-right: calc(1.1vw + 4px) solid rgba(#3f3, 0.75);
-		text-shadow: 0 0 5px rgba(51, 255, 51, 0.75);
+		border-right: 10px solid rgba(rgb(180, 86, 168), 0.75);
+		border-right: calc(1.1vw + 4px) solid rgba(rgb(180, 86, 168), 0.75);
+		text-shadow: 0 0 5px rgba(209, 40, 158, 0.75);
 		white-space: nowrap;
 		animation: typed #{$durTotal + "s"} linear 1s infinite, beam-blink 1s infinite;
 	}
